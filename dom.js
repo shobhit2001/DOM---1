@@ -30,7 +30,7 @@ header.style.borderBottom = 'solid 3px black';
 
 // GETELEMENTSBYCLASSNAME
 
-console.log(document.getElementsByClassName('title'))
+// console.log(document.getElementsByClassName('title'))
 var addItemTitle = document.getElementsByClassName('title');
 addItemTitle[0].style.fontWeight = 'bold'; // Make it bold
 addItemTitle[0].style.color = 'green'; // Change font color to green
