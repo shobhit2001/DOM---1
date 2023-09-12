@@ -38,7 +38,7 @@ addItemTitle[0].style.color = 'green'; // Change font color to green
 // GETELEMENTSBYCLASSNAME
 
 var items = document.getElementsByClassName('list-group-item');
-console.log(items);
+// console.log(items);
 items[2].style.backgroundColor = 'green';
 
 // items.style.fontWeight = 'bold'; //Do not work because, it is an array form
@@ -47,3 +47,23 @@ for(var i = 0; i < items.length; i++)
 {
     items[i].style.fontWeight = 'bold';
 }
+
+//GETELEMENTSBYTAGNAME
+
+var li = document.getElementsByTagName('li');
+// console.log(li);
+// console.log(li[1]);
+li[1].textContent = 'HElloS';
+li[1].style.fontWeight = 'bold';
+li[1].style.backgroundColor = 'yellow';
+
+for(var i = 0; i < li.length; i++)
+{
+    li[i].style.backgroundColor = 'grey';
+}
+
+// QUERYSELECTOR
+
+var header = document.querySelector('#main-header');
+// console.log(header);
+header.style.borderBottom = 'solid 4px brown';
