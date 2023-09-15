@@ -85,3 +85,12 @@ secondItem.style.backgroundColor = 'green';
 
 var thirdItem = document.querySelector('.list-group-item:nth-child(3)');
 thirdItem.style.display = 'none';
+
+// QUERSELECTORALL
+
+var odd = document.querySelectorAll('.list-group-item');
+// console.log(odd);
+for(var i = 0; i < odd.length; i++)
+{
+    odd[i].style.backgroundColor = 'green';
+}
